@@ -1,3 +1,10 @@
 export default function App() {
-  return <p>hello</p>;
+  const call = () => {
+    console.log("hello");
+  };
+  return (
+    <div>
+      <button onClick={() => call()}>call</button>
+    </div>
+  );
 }
